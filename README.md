@@ -3,4 +3,8 @@ In game there are two tower that create players to destroy other tower. Each Tow
 
 ## Watch Game Play
 
-[Video_2023_03_11-1.webm](https://user-images.githubusercontent.com/102998343/224510510-2add8107-f622-4121-9948-29d858aff41a.webm)
+
+
+
+https://github.com/softflied/towerWarHypercasual/assets/102998343/3a928bbc-402c-4215-906b-1a1438d69487
+
