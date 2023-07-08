@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: b6c9512439f3ef44495a42f9d7bddc75
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: Chest_M
+    100006: DeformationSystem
+    100008: Elbow_L
+    100010: Elbow_R
+    100012: Eye_L
+    100014: Eye_R
+    100016: EyeEnd_L
+    100018: EyeEnd_R
+    100020: Geometry
+    100022: Goos
+    100024: //RootNode
+    100026: Head_M
+    100028: Hip_L
+    100030: Hip_R
+    100032: Inner_Toe_1_L
+    100034: Inner_Toe_1_R
+    100036: Inner_Toe_2_L
+    100038: Inner_Toe_2_R
+    100040: Inner_Toe_L
+    100042: Inner_Toe_R
+    100044: Jaw_M
+    100046: JawEnd_M
+    100048: joint4_L
+    100050: joint4_R
+    100052: Knee_L
+    100054: Knee_R
+    100056: Main
+    100058: Middle_Toe_1_L
+    100060: Middle_Toe_1_R
+    100062: Middle_Toe_2_L
+    100064: Middle_Toe_2_R
+    100066: Middle_Toe_3_L
+    100068: Middle_Toe_3_R
+    100070: Middle_Toe_L
+    100072: Middle_Toe_R
+    100074: Neck_M
+    100076: Outer_Toe_1_L
+    100078: Outer_Toe_1_R
+    100080: Outer_Toe_2_L
+    100082: Outer_Toe_2_R
+    100084: Outer_Toe_3_L
+    100086: Outer_Toe_3_R
+    100088: Outer_Toe_L
+    100090: Outer_Toe_R
+    100092: Root_M
+    100094: Scapula_L
+    100096: Scapula_R
+    100098: Shoulder_L
+    100100: Shoulder_R
+    100102: Spine1_M
+    100104: Tail1_M
+    100106: Tail2_M
+    100108: Tail3_M
+    100110: Tail3ASide_L
+    100112: Tail3ASide_R
+    100114: Tail3Side_L
+    100116: Tail3Side_R
+    100118: Tail3SideEnd_L
+    100120: Tail3SideEnd_R
+    100122: Toes_L
+    100124: Toes_R
+    100126: ToesEnd_L
+    100128: ToesEnd_R
+    100130: Wing_10_L
+    100132: Wing_10_R
+    100134: Wing_11_L
+    100136: Wing_11_R
+    100138: Wing_12_L
+    100140: Wing_12_R
+    100142: Wing_1_L
+    100144: Wing_1_R
+    100146: Wing_2_L
+    100148: Wing_2_R
+    100150: Wing_3_L
+    100152: Wing_3_R
+    100154: Wing_4_L
+    100156: Wing_4_R
+    100158: Wing_5_L
+    100160: Wing_5_R
+    100162: Wing_6_L
+    100164: Wing_6_R
+    100166: Wing_7_L
+    100168: Wing_7_R
+    100170: Wing_8_L
+    100172: Wing_8_R
+    100174: Wing_9_L
+    100176: Wing_9_R
+    100178: Wrist_L
+    100180: Wrist_R
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: Chest_M
+    400006: DeformationSystem
+    400008: Elbow_L
+    400010: Elbow_R
+    400012: Eye_L
+    400014: Eye_R
+    400016: EyeEnd_L
+    400018: EyeEnd_R
+    400020: Geometry
+    400022: Goos
+    400024: //RootNode
+    400026: Head_M
+    400028: Hip_L
+    400030: Hip_R
+    400032: Inner_Toe_1_L
+    400034: Inner_Toe_1_R
+    400036: Inner_Toe_2_L
+    400038: Inner_Toe_2_R
+    400040: Inner_Toe_L
+    400042: Inner_Toe_R
+    400044: Jaw_M
+    400046: JawEnd_M
+    400048: joint4_L
+    400050: joint4_R
+    400052: Knee_L
+    400054: Knee_R
+    400056: Main
+    400058: Middle_Toe_1_L
+    400060: Middle_Toe_1_R
+    400062: Middle_Toe_2_L
+    400064: Middle_Toe_2_R
+    400066: Middle_Toe_3_L
+    400068: Middle_Toe_3_R
+    400070: Middle_Toe_L
+    400072: Middle_Toe_R
+    400074: Neck_M
+    400076: Outer_Toe_1_L
+    400078: Outer_Toe_1_R
+    400080: Outer_Toe_2_L
+    400082: Outer_Toe_2_R
+    400084: Outer_Toe_3_L
+    400086: Outer_Toe_3_R
+    400088: Outer_Toe_L
+    400090: Outer_Toe_R
+    400092: Root_M
+    400094: Scapula_L
+    400096: Scapula_R
+    400098: Shoulder_L
+    400100: Shoulder_R
+    400102: Spine1_M
+    400104: Tail1_M
+    400106: Tail2_M
+    400108: Tail3_M
+    400110: Tail3ASide_L
+    400112: Tail3ASide_R
+    400114: Tail3Side_L
+    400116: Tail3Side_R
+    400118: Tail3SideEnd_L
+    400120: Tail3SideEnd_R
+    400122: Toes_L
+    400124: Toes_R
+    400126: ToesEnd_L
+    400128: ToesEnd_R
+    400130: Wing_10_L
+    400132: Wing_10_R
+    400134: Wing_11_L
+    400136: Wing_11_R
+    400138: Wing_12_L
+    400140: Wing_12_R
+    400142: Wing_1_L
+    400144: Wing_1_R
+    400146: Wing_2_L
+    400148: Wing_2_R
+    400150: Wing_3_L
+    400152: Wing_3_R
+    400154: Wing_4_L
+    400156: Wing_4_R
+    400158: Wing_5_L
+    400160: Wing_5_R
+    400162: Wing_6_L
+    400164: Wing_6_R
+    400166: Wing_7_L
+    400168: Wing_7_R
+    400170: Wing_8_L
+    400172: Wing_8_R
+    400174: Wing_9_L
+    400176: Wing_9_R
+    400178: Wrist_L
+    400180: Wrist_R
+    2100000: Goos
+    4300000: Goos
+    7400000: Goos_Idle
+    7400002: Goos_Idle 2
+    7400004: Goos_Idle 3
+    7400006: Goos_Idle 4
+    7400008: Goos_Idle to Walk
+    7400010: Goos_Walk
+    7400012: Goos_Walk to Idle
+    7400014: Goos_Idle to Run
+    7400016: Goos_Run
+    7400018: Goos_Run to Idle
+    7400020: Goos_Idle to Fly
+    7400022: Goos_Fly
+    7400024: Goos_Fly to Idle
+    7400026: Goos_Attack
+    7400028: Goos_Death
+    9500000: //RootNode
+    13700000: Goos
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Goos_Idle
+      takeName: Goos_Idle
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goos_Idle 2
+      takeName: Goos_Idle 2
+      firstFrame: 100
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 100
+    - serializedVersion: 16
+      name: Goos_Idle 3
+      takeName: Goos_Idle 3
+      firstFrame: 180
+      lastFrame: 272
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 180
+    - serializedVersion: 16
+      name: Goos_Idle 4
+      takeName: Goos_Idle 4
+      firstFrame: 330
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 330
+    - serializedVersion: 16
+      name: Goos_Idle to Walk
+      takeName: Goos_Idle to Walk
+      firstFrame: 390
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goos_Walk
+      takeName: Goos_Walk
+      firstFrame: 420
+      lastFrame: 450
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 420
+    - serializedVersion: 16
+      name: Goos_Walk to Idle
+      takeName: Goos_Walk to Idle
+      firstFrame: 470
+      lastFrame: 485
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goos_Idle to Run
+      takeName: Goos_Idle to Run
+      firstFrame: 510
+      lastFrame: 518
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goos_Run
+      takeName: Goos_Run
+      firstFrame: 540
+      lastFrame: 556
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 540
+    - serializedVersion: 16
+      name: Goos_Run to Idle
+      takeName: Goos_Run to Idle
+      firstFrame: 570
+      lastFrame: 581
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goos_Idle to Fly
+      takeName: Goos_Idle to Fly
+      firstFrame: 610
+      lastFrame: 620
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goos_Fly
+      takeName: Goos_Fly
+      firstFrame: 640
+      lastFrame: 660
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 640
+    - serializedVersion: 16
+      name: Goos_Fly to Idle
+      takeName: Goos_Fly to Idle
+      firstFrame: 680
+      lastFrame: 690
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goos_Attack
+      takeName: Goos_Attack
+      firstFrame: 740
+      lastFrame: 776
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 740
+    - serializedVersion: 16
+      name: Goos_Death
+      takeName: Goos_Death
+      firstFrame: 810
+      lastFrame: 836
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
